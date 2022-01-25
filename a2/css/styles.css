@@ -10,6 +10,7 @@ body {
 	background-color: grey;
 	border-radius: 0;
 	border: 0;
+	height: 100px;
 }
 
 .navbar-brand {
