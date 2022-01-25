@@ -10,6 +10,7 @@ body {
 	background-color: grey;
 	border-radius: 0;
 	border: 0;
+	height: 80px;
 }
 
 .navbar-brand {
@@ -100,17 +101,8 @@ body {
 	.navbar-brand {
     height: 0px;
   }
-	.navbar-brand h1 { /* Restaurant name */
-    padding-top: 10px;
-    font-size: 6vw; /* 1vw = 1% of viewport width */
-  }
-
 	#collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
   }
   /* End Header */
-
-	#main-content > p {
-		font-size: 30px;
-	}
 }
