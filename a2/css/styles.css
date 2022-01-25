@@ -1,6 +1,6 @@
 body {
 	font-size: 16px;
-	color: #fff;
+	color: black;
 	background-color: white;
 	font-family: 'Oxygen', sans-serif;
 }
@@ -10,7 +10,6 @@ body {
 	background-color: grey;
 	border-radius: 0;
 	border: 0;
-	height: 100px;
 }
 
 .navbar-brand {
@@ -59,6 +58,19 @@ body {
 }
 /* END HEADER */
 
+/* HOME PAGE */
+#main-content > p {
+	font-size: 30px;
+}
+
+.menu-item {
+	font-size: 20px;
+	text-align: center;
+}
+
+.content {
+	background-color: grey;
+}
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 
@@ -81,11 +93,15 @@ body {
   }
 	.navbar-brand h1 { /* Restaurant name */
     padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
+    font-size: 6vw; /* 1vw = 1% of viewport width */
   }
 
 	#collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
   }
   /* End Header */
+
+	#main-content > p {
+		font-size: 30px;
+	}
 }
