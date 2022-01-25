@@ -70,6 +70,7 @@ body {
 
 .content {
 	background-color: grey;
+	height: 1000px;
 }
 /********** Large devices only **********/
 @media (min-width: 1200px) {
