@@ -63,15 +63,23 @@ body {
 	font-size: 30px;
 }
 
-.menu-item {
-	font-size: 20px;
-	text-align: center;
-}
-
 .content {
 	background-color: grey;
-	height: 1000px;
+	height: 700px;
+	margin-bottom: 20px;
 }
+
+.content > h3 {
+	padding: 10px;
+	margin: 0;
+}
+
+.content > a {
+	position: absolute;
+	bottom: 25px;
+	left: 25px;
+}
+
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 
